@@ -1,0 +1,6 @@
+------pluralsight
+https://app.pluralsight.com/library/courses/database-delivery-best-practices/table-of-contents
+
+
+------vladimir khorikov - database versioning best practices	
+http://enterprisecraftsmanship.com/2015/08/10/database-versioning-best-practices/
