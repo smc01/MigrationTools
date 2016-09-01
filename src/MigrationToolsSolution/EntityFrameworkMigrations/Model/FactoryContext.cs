@@ -11,5 +11,6 @@ namespace EntityFrameworkMigrations.Model
 
         }
         public DbSet<Manufacturer> ManufacturerSet { get; set; }
+     
     }
 }

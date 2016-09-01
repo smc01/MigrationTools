@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleEntities", "SampleEnt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkMigrations", "EntityFrameworkMigrations\EntityFrameworkMigrations.csproj", "{A7B387DC-E544-4E9C-988F-2D803ABF7355}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentMigrations", "FluentMigrations\FluentMigrations.csproj", "{18337A6E-6C81-45A2-9D4F-63BD2201040D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A7B387DC-E544-4E9C-988F-2D803ABF7355}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7B387DC-E544-4E9C-988F-2D803ABF7355}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7B387DC-E544-4E9C-988F-2D803ABF7355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18337A6E-6C81-45A2-9D4F-63BD2201040D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18337A6E-6C81-45A2-9D4F-63BD2201040D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18337A6E-6C81-45A2-9D4F-63BD2201040D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18337A6E-6C81-45A2-9D4F-63BD2201040D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

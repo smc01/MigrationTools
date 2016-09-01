@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2066514A-3294-41F6-BE31-E05224EA7EB6}</ProjectGuid>
+    <ProjectGuid>{18337A6E-6C81-45A2-9D4F-63BD2201040D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SampleEntities</RootNamespace>
-    <AssemblyName>SampleEntities</AssemblyName>
+    <RootNamespace>FluentMigrations</RootNamespace>
+    <AssemblyName>FluentMigrations</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -31,6 +31,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FluentMigrator, Version=1.6.2.0, Culture=neutral, PublicKeyToken=aacfc7de5acabf05, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentMigrator.1.6.2\lib\40\FluentMigrator.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FluentMigrator.Runner, Version=1.6.2.0, Culture=neutral, PublicKeyToken=aacfc7de5acabf05, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentMigrator.Runner.1.6.2\lib\40\FluentMigrator.Runner.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Migrate">
+      <HintPath>..\packages\FluentMigrator.1.6.2\tools\Migrate.exe</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,9 +52,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Color.cs" />
     <Compile Include="Manufacturer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="migrate_up.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
