@@ -2,5 +2,8 @@
 https://app.pluralsight.com/library/courses/database-delivery-best-practices/table-of-contents
 
 
+-----fluent migrator start
+https://lostechies.com/seanchambers/2011/04/02/fluentmigrator-getting-started/
+
 ------vladimir khorikov - database versioning best practices	
 http://enterprisecraftsmanship.com/2015/08/10/database-versioning-best-practices/
